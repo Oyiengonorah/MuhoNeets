@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="eng">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1">
+        <title>Muho Neets</title>
+        <link rel="stylesheet" href="cart.css">
+        <script src="/cart.js" async></script>
+    </head>
+    <body>
+        <div class="out-container">
+            <div class="product-container">
+                <div class="photo-container">
+                    <a href="index.html"><img class="product1" src="/images/sturdyYarn.png" alt="A ball of yellow yarn"></a>
+                </div>
+                <div class="word-container">
+                    <div class="rm heading2">Sturdy Yarn</div>
+                    <div class="rm heading2 left">400 KES</div>
+                </div>
+                <p class="heading3">Colours</p>
+                <p class="heading3">Best used for making crochet tote bags and cover up outfits.</p>
+                <p><button class="cart-button">Add to Cart</button></p>
+            </div>
+
+            <div class="product-container">
+                <div class="photo-container">
+                    <a href="index.html"><img class="product1" src="/images/needles.png" alt="A ball of yellow yarn"></a>
+                </div>
+                <div class="word-container">
+                    <div class="rm heading2">Needles</div>
+                    <div class="rm heading2 left">200 KES</div>
+                </div>
+                <p class="heading3">Colours</p>
+                <p class="heading3">Best used for making crochet tote bags and cover up outfits.</p>
+                <p><button class="cart-button">Add to Cart</button></p>
+            </div>
+        </div>
+
+            <section class="container content-section">
+                <h2 class="section-header">CART</h2>
+                <div class="cart-row">
+                    <span class="cart-item cart-header cart-column">ITEM</span>
+                    <span class="cart-price cart-header cart-column">PRICE</span>
+                    <span class="cart-quantity cart-header cart-column">QUANTITY</span>
+                </div>
+                <div class="cart-items">
+                    <div class="cart-row">
+                        <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="/images/sturdyYarn.png" width="100" height="100">
+                            <span class="cart-item-title">Sturdy Yarn</span>
+                        </div>
+                        <span class="cart-price cart-column">KES 400</span>
+                        <div class="cart-quantity cart-column">
+                            <input class="cart-quantity-input" type="number" value="0">
+                            <button class="btn btn-danger" type="button">REMOVE</button>
+                        </div>
+                    </div>
+                    <div class="cart-row">
+                        <div class="cart-item cart-column">
+                            <img class="cart-item-image" src="/images/needles.png" width="100" height="100">
+                            <span class="cart-item-title">Knitting Needles</span>
+                        </div>
+                        <span class="cart-price cart-column">KES 200</span>
+                        <div class="cart-quantity cart-column">
+                            <input class="cart-quantity-input" type="number" value="0">
+                            <button class="btn btn-danger" type="button">REMOVE</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-total">
+                    <strong class="cart-total-title">Total</strong>
+                    <span class="cart-total-price">KES 200.00</span>
+                </div>
+                <button class="btn btn-primary btn-purchase" type="button">PURCHASE</button>
+            </section>
+    </body>
+</html>
